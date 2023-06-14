@@ -1,0 +1,450 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .page::after{
+        margin: 0 0;
+    }
+    .page::before{
+        margin: 0 0;
+    }
+
+    .top-head p {
+        line-height: 32px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+
+    .container {
+        max-width: 98% !important;
+    }
+
+    /* banner start  */
+
+    .banner {
+        text-align: center;
+        padding: 70px 0;
+    }
+    .banner-img img{
+        display: none;
+    }
+
+    .hero-img{
+    
+        display: block;
+    }
+
+
+    .banner-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .banner ul li {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .get-started-btn {
+        padding: 4px 33px;
+    }
+
+    .banner-contact-sales {
+        padding: 4px 34px;
+    }
+    .login{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .contact-sales-btn {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /* banner end  */
+  
+    /* Table start */
+    th:first-child, th:nth-child(3), th:nth-child(5){
+        display: none;
+    }
+    td:first-child, td:nth-child(3), td:nth-child(5){
+        display: none;
+    }
+
+    /* Table end */
+
+   
+    /* Regonstie start  */
+    .regonsite{
+        text-align: center;
+    }
+    .reg-title{
+        font-size: 24px;
+    }
+    .reg-description{
+        font-size: 16px;
+    }
+    .regonsite img{
+        width: 50%;
+        margin: 50px 0;
+    }
+    /* Regonsite end */
+    /* start project start  */
+    .start-project {
+        padding: 50px 0;
+    }
+    .start-project-wrapper h1 {
+        font-size: 24px;
+    }
+    /* start project end  */
+     /* why-choose-us start  */
+    .why-choose-us {
+        padding: 50px 0;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* why-choose-us end  */
+
+    /* API Start */
+    .work-wrapper{
+        margin-bottom: 20px;
+    }
+    .work-wrapper h4{
+        font-size: 14px;
+    }
+    .work-wrapper p{
+        font-size: 12px;
+    }
+    /* API end */
+
+    /* explore-product start  */
+.explore-product{
+    padding: 50px 0;
+}
+.single-explore-product{
+    padding: 20px;
+}
+.single-explore-title h3{
+    font-size: 22px;
+}
+/* explore-product end  */
+
+/* Faq start  */
+.faq {
+    padding: 50px 0;
+}
+.accordion-button{
+    font-size: 14px !important;
+}
+.accordion-body{
+    font-size: 14px !important;
+}
+/* faq end  */
+
+/* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+.signup-wrapper{
+    padding: 35px 35px;
+}
+
+/* Contact end */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .page::after{
+        margin: 0 0;
+    }
+    .page::before{
+        margin: 0 0;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+
+    .top-head p {
+        font-size: 13px;
+    }
+
+    .top-head p a {
+        font-size: 14px !important;
+        padding: 4px 6px;
+    }
+
+    .container {
+        max-width: 90% !important;
+    }
+
+    /* banner start  */
+
+    .banner {
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    .banner-title {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .login{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .contact-sales-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+   
+    /* banner end  */
+    /*About Start*/
+    .about {
+        padding: 60px 0;
+    }
+
+    .png-bg {
+        width: 350px !important;
+        left: 100px;
+    }
+
+    .about-left-head {
+        font-size: 18px;
+    }
+
+    .banner-right-col-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .about-right-head {
+        font-size: 26px !important;
+    }
+
+    .about-right-subtitle {
+        font-size: 20px;
+    }
+
+    /*About End*/
+
+     /* Table start */
+     th:first-child, th:nth-child(3), th:nth-child(5){
+        display: none;
+    }
+    td:first-child, td:nth-child(3), td:nth-child(5){
+        display: none;
+    }
+
+    /* Table end */
+    /* Regonstie start  */
+    .regonsite{
+        text-align: center;
+    }
+    .reg-title{
+        font-size: 24px;
+    }
+    .reg-description{
+        font-size: 16px;
+    }
+    .regonsite img{
+        width: 50%;
+        margin: 50px 0;
+    }
+    /* Regonsite end */
+
+    /* start project start  */
+    .start-project {
+        padding: 60px 0;
+    }
+/* start project end  */
+
+    /* explore-product start  */
+    .explore-product{
+        padding: 60px 0;
+    }
+    /* explore-product end  */
+/* Faq start  */
+.faq {
+    padding: 60px 0;
+}
+
+/* faq end  */
+
+/* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+
+.signup-wrapper{
+    padding: 35px 35px;
+}
+/* Contact end */
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container {
+        max-width: 98% !important;
+    }
+
+    /* banner start  */
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    .banner-title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .login{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .contact-sales-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+
+    .page::after{
+        margin: 0 0;
+    }
+    /* banner end  */
+    /*About Start*/
+    .about {
+        padding: 80px 0;
+    }
+
+    .png-bg {
+        width: 550px !important;
+        left: 100px;
+    }
+
+    .about-left-head {
+        font-size: 18px;
+    }
+
+    .banner-right-col-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .about-right-head {
+        font-size: 26px !important;
+    }
+
+    .about-right-subtitle {
+        font-size: 20px;
+    }
+
+    /*About End*/
+
+    /* Table start */
+    th:first-child, th:last-child{
+        display: none;
+    }
+    td:first-child,td:last-child{
+        display: none;
+    }
+
+    /* Table end */
+
+     /* start project start  */
+     .start-project {
+        padding: 80px 0;
+    }
+/* start project end  */
+
+    /* explore-product start  */
+    .explore-product{
+        padding: 80px 0;
+    }
+    /* explore-product end  */
+ 
+/* Faq start  */
+.faq {
+    padding: 80px 0;
+}
+
+/* faq end  */
+/* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+
+.signup-wrapper{
+    padding: 35px 35px;
+}
+/* Contact end */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .container {
+        max-width: 100% !important;
+    }
+
+    /* banner start  */
+    .banner-title {
+        font-size: 36px;
+    }
+
+    /* banner end  */
+    /*About Start*/
+    .png-bg {
+        width: 500px;
+        top: 20px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    .about-left-head {
+        font-size: 24px;
+    }
+
+    .about-right-head {
+        font-size: 35px !important;
+    }
+
+    /*About End*/
+    /* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+/* Contact end */
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+        /* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+/* Contact end */
+}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+        /* Contact start */
+.form-control:focus {
+   
+    box-shadow: none;
+}
+/* Contact end */
+}
